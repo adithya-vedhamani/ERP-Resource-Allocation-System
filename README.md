@@ -23,3 +23,4 @@ npm install
 nodemon app.js
 
 ```
+In app.js , update the MongoDB URL with your own Atlas Cluster ID 
