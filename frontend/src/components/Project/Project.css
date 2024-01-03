@@ -1,0 +1,58 @@
+/* Projects.css */
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table header cells */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for table data cells */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for action buttons container */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Style for the card container */
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Style for project details */
+.card p {
+  margin: 8px 0;
+}
+
+/* Style for action buttons within the card */
+.card .MuiButton-root {
+  margin-top: auto;
+}
+
+/* Style for the "Add Project" button container */
+.add-project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style for the "Add Project" button */
+.add-project-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+}

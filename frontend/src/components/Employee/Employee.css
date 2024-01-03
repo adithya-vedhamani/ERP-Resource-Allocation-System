@@ -1,0 +1,127 @@
+/* Employee.css */
+
+/* General Styles */
+
+/* Reset default margin and padding for better consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table header cells */
+th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Style for table data cells */
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Style for action buttons container */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Card Styles */
+
+/* Style for the card container */
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for employee details */
+.card p {
+  margin: 8px 0;
+}
+
+/* Style for action buttons within the card */
+.card button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-employee-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+/* Style for the button within the container */
+.add-employee-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Change the color as desired */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.add-employee-button button:hover {
+  background-color: #45a049; /* Change the hover color as desired */
+}
+
+/* Hover effect for buttons */
+.card button:hover {
+  background-color: #45a049;
+}
+
+.add-employee-button button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.right-corner-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+/* Style for the button within the container */
+.right-corner-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db; /* Change the color as desired */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.right-corner-button button:hover {
+  background-color: #2980b9; /* Change the hover color as desired */
+}
